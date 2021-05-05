@@ -19,7 +19,7 @@ from keras.preprocessing.image import img_to_array
 
 
 def getArray():
-     test_data_dir = '/Users/kshitijkaushik/Desktop/Project/Images/Trees/Test'
+     test_data_dir = '/Users/chayan/Desktop/Project/Images/Trees/Test'
      with open("prediction_Trees.csv", "w") as f:
         p_writer = csv.writer(f, delimiter=',', lineterminator='\n')
         for _, _, imgs in os.walk(test_data_dir):
