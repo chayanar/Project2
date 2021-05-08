@@ -35,4 +35,4 @@ def createOptimizationData():
                 print(test_x);
     
                      
-runOptimization();
+createOptimizationData();
