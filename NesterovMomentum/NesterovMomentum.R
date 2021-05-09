@@ -70,7 +70,7 @@ for(i in 1:retval) {
   print("starting netserov Momentum Method")
   t1 = Sys.time()
   # define the total iterations
-  n_iter = 32
+  n_iter = 40
   # define the step size
   step_size = 0.1
   # define momentum
