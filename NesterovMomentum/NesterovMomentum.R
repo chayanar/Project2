@@ -13,16 +13,6 @@ derivative<- function(a,b,d)
 }
 
 
-B = matrix( 
-  c(2, 4, 3, 1, 5, 7), 
-  nrow=3, 
-  ncol=3)
-#print(B)
-#print(B[,1])
-#print(nrow(B))
-#runif(nrow(B))
-print(rep(0, 3))
-
 nesterov<- function(objective, derivative, bounds, n_iter, step_size, momentum)
 {
   # generate an initial point
